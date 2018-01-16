@@ -1,2 +1,2 @@
-# plankton_analysis
-Plankton classification and prediction
+# Plankton Analysis
+Plankton Classification and Prediction
