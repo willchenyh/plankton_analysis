@@ -16,14 +16,14 @@ Dataset was partitioned into training, validation and test sets with 70%, 10%, a
 
 Classification were performed on various taxonomical levels, including Class, Order and Species levels. A taxonomical hierarchy graph is shown below. 
 
-![tax hierarchy](taxonomy_hierarchy.png)
+![tax hierarchy](pics/taxonomy_hierarchy.png)
 
 High accuracy results, above 90%, were obtained from classification experiments. An example of confusion matrix on taxonomical Class level is shown below.
 
-![confusion matrix on class level](classification_taxonomical_class_level.png)
+![confusion matrix on class level](pics/classification_taxonomical_class_level.png)
 
 ### Transfer Learning with Google Data
 
 To test the usefulness of our data, a CNN was trained on our data and then used on plankton data collected from Google image search. The trained network was applied on Google data to generate a 4096 dimensional latent vector for each image. SVM was trained and tested on the latent vectors. The results are shown below.
 
-![transfer learning with SVM](transfer_learning_svm_on_google.png)
+![transfer learning with SVM](pics/transfer_learning_svm_on_google.png)
