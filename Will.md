@@ -26,4 +26,4 @@ High accuracy results, above 90%, were obtained from classification experiments.
 
 To test the usefulness of our data, a CNN was trained on our data and then used on plankton data collected from Google image search. The trained network was applied on Google data to generate a 4096 dimensional latent vector for each image. SVM was trained and tested on the latent vectors. The results are shown below.
 
-![transfer learning with SVM](transfer_learning_with_svm_on_google.png)
+![transfer learning with SVM](transfer_learning_svm_on_google.png)
